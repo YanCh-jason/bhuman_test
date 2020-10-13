@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="B-Human" Database="./B-Human.tags" Version="10.0.0">
+  <Project Name="SimRobot" Path="SimRobot.project" Active="Yes"/>
+  <Project Name="SimulatedNao" Path="SimulatedNao.project" Active="No"/>
+  <Project Name="Nao" Path="Nao.project" Active="No"/>
+  <Project Name="bush" Path="bush.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Develop" Selected="yes">
+      <Environment/>
+      <Project Name="SimRobot" ConfigName="Develop"/>
+      <Project Name="SimulatedNao" ConfigName="Develop"/>
+      <Project Name="Nao" ConfigName="Develop"/>
+      <Project Name="bush" ConfigName="Develop"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Debug" Selected="no">
+      <Environment/>
+      <Project Name="SimRobot" ConfigName="Debug"/>
+      <Project Name="SimulatedNao" ConfigName="Debug"/>
+      <Project Name="Nao" ConfigName="Debug"/>
+      <Project Name="bush" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="SimRobot" ConfigName="Release"/>
+      <Project Name="SimulatedNao" ConfigName="Release"/>
+      <Project Name="Nao" ConfigName="Release"/>
+      <Project Name="bush" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

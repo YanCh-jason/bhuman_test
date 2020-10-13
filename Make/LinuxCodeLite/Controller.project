@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="Controller" InternalType="Console">
+  <Description/>
+  <VirtualDirectory Name="Controller">
+    <VirtualDirectory Name="Platform">
+      <VirtualDirectory Name="Linux">
+        <File Name="../../Src/Controller/Platform/Linux/Joystick.cpp"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Controller/Platform/Joystick.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Representations">
+      <File Name="../../Src/Controller/Representations/AnnotationInfo.cpp"/>
+      <File Name="../../Src/Controller/Representations/TimeInfo.cpp"/>
+      <File Name="../../Src/Controller/Representations/ModuleInfo.cpp"/>
+      <File Name="../../Src/Controller/Representations/TimeInfo.h"/>
+      <File Name="../../Src/Controller/Representations/AnnotationInfo.h"/>
+      <File Name="../../Src/Controller/Representations/ModuleInfo.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Views">
+      <VirtualDirectory Name="DataView">
+        <File Name="../../Src/Controller/Views/DataView/PropertyEditorFactory.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyManager.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/TypeDescriptor.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyTreeCreator.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/DataWidget.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/DataView.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/EditorEventFilter.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyTreeWriter.cpp"/>
+        <File Name="../../Src/Controller/Views/DataView/TypeDeclarations.h"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyManager.h"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyTreeWriter.h"/>
+        <File Name="../../Src/Controller/Views/DataView/TypeDescriptor.h"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyEditorFactory.h"/>
+        <File Name="../../Src/Controller/Views/DataView/DataView.h"/>
+        <File Name="../../Src/Controller/Views/DataView/EditorEventFilter.h"/>
+        <File Name="../../Src/Controller/Views/DataView/DataWidget.h"/>
+        <File Name="../../Src/Controller/Views/DataView/PropertyTreeCreator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Statistics">
+        <File Name="../../Src/Controller/Views/Statistics/StatisticsPlotView.cpp"/>
+        <File Name="../../Src/Controller/Views/Statistics/StatisticsFieldView.cpp"/>
+        <File Name="../../Src/Controller/Views/Statistics/StatisticRobotView.cpp"/>
+        <File Name="../../Src/Controller/Views/Statistics/StatisticRobotView.h"/>
+        <File Name="../../Src/Controller/Views/Statistics/StatisticsPlotView.h"/>
+        <File Name="../../Src/Controller/Views/Statistics/StatisticsFieldView.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ColorCalibrationView">
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.cpp"/>
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/RangeSelector.cpp"/>
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.cpp"/>
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h"/>
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/History.h"/>
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h"/>
+        <File Name="../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="KickView">
+        <File Name="../../Src/Controller/Views/KickView/KickMenuBar.cpp"/>
+        <File Name="../../Src/Controller/Views/KickView/KickView.cpp"/>
+        <File Name="../../Src/Controller/Views/KickView/KickViewMath.cpp"/>
+        <File Name="../../Src/Controller/Views/KickView/KickViewGLWidget.cpp"/>
+        <File Name="../../Src/Controller/Views/KickView/TabWidget.cpp"/>
+        <File Name="../../Src/Controller/Views/KickView/KickViewWidget.cpp"/>
+        <File Name="../../Src/Controller/Views/KickView/KickViewWidget.h"/>
+        <File Name="../../Src/Controller/Views/KickView/KickMenuBar.h"/>
+        <File Name="../../Src/Controller/Views/KickView/KickViewMath.h"/>
+        <File Name="../../Src/Controller/Views/KickView/KickView.h"/>
+        <File Name="../../Src/Controller/Views/KickView/KickViewGLWidget.h"/>
+        <File Name="../../Src/Controller/Views/KickView/TabWidget.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Controller/Views/View3D.cpp"/>
+      <File Name="../../Src/Controller/Views/DotView.cpp"/>
+      <File Name="../../Src/Controller/Views/ImageView.cpp"/>
+      <File Name="../../Src/Controller/Views/JointView.cpp"/>
+      <File Name="../../Src/Controller/Views/CABSLGraphView.cpp"/>
+      <File Name="../../Src/Controller/Views/SensorView.cpp"/>
+      <File Name="../../Src/Controller/Views/LogPlayerControlView.cpp"/>
+      <File Name="../../Src/Controller/Views/TimeView.cpp"/>
+      <File Name="../../Src/Controller/Views/ColorSpaceView.cpp"/>
+      <File Name="../../Src/Controller/Views/AnnotationView.cpp"/>
+      <File Name="../../Src/Controller/Views/CABSLBehaviorView.cpp"/>
+      <File Name="../../Src/Controller/Views/FieldView.cpp"/>
+      <File Name="../../Src/Controller/Views/ModuleGraphView.cpp"/>
+      <File Name="../../Src/Controller/Views/PlotView.cpp"/>
+      <File Name="../../Src/Controller/Views/ConsoleView.cpp"/>
+      <File Name="../../Src/Controller/Views/LogPlayerControlView.h"/>
+      <File Name="../../Src/Controller/Views/CABSLBehaviorView.h"/>
+      <File Name="../../Src/Controller/Views/FieldView.h"/>
+      <File Name="../../Src/Controller/Views/ModuleGraphView.h"/>
+      <File Name="../../Src/Controller/Views/TimeView.h"/>
+      <File Name="../../Src/Controller/Views/AnnotationView.h"/>
+      <File Name="../../Src/Controller/Views/JointView.h"/>
+      <File Name="../../Src/Controller/Views/ConsoleView.h"/>
+      <File Name="../../Src/Controller/Views/ImageView.h"/>
+      <File Name="../../Src/Controller/Views/View3D.h"/>
+      <File Name="../../Src/Controller/Views/ColorSpaceView.h"/>
+      <File Name="../../Src/Controller/Views/SensorView.h"/>
+      <File Name="../../Src/Controller/Views/PlotView.h"/>
+      <File Name="../../Src/Controller/Views/CABSLGraphView.h"/>
+      <File Name="../../Src/Controller/Views/DotView.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Visualization">
+      <File Name="../../Src/Controller/Visualization/HeaderedWidget.cpp"/>
+      <File Name="../../Src/Controller/Visualization/DebugDrawing3D.cpp"/>
+      <File Name="../../Src/Controller/Visualization/OpenGLMethods.cpp"/>
+      <File Name="../../Src/Controller/Visualization/PaintMethods.cpp"/>
+      <File Name="../../Src/Controller/Visualization/DebugDrawing.cpp"/>
+      <File Name="../../Src/Controller/Visualization/HeaderedWidget.h"/>
+      <File Name="../../Src/Controller/Visualization/DebugDrawing3D.h"/>
+      <File Name="../../Src/Controller/Visualization/PaintMethods.h"/>
+      <File Name="../../Src/Controller/Visualization/OpenGLMethods.h"/>
+      <File Name="../../Src/Controller/Visualization/DebugDrawing.h"/>
+    </VirtualDirectory>
+    <File Name="../../Src/Controller/LogPlayer.cpp"/>
+    <File Name="../../Src/Controller/GameController.cpp"/>
+    <File Name="../../Src/Controller/LogExtractor.cpp"/>
+    <File Name="../../Src/Controller/SimulatedRobot.cpp"/>
+    <File Name="../../Src/Controller/RemoteRobot.cpp"/>
+    <File Name="../../Src/Controller/RobotConsole.cpp"/>
+    <File Name="../../Src/Controller/LocalRobot.cpp"/>
+    <File Name="../../Src/Controller/ConsoleRoboCupCtrl.cpp"/>
+    <File Name="../../Src/Controller/BHToolBar.cpp"/>
+    <File Name="../../Src/Controller/Statistics.cpp"/>
+    <File Name="../../Src/Controller/RoboCupCtrl.cpp"/>
+    <File Name="../../Src/Controller/RemoteRobot.h"/>
+    <File Name="../../Src/Controller/LogExtractor.h"/>
+    <File Name="../../Src/Controller/ConsoleRoboCupCtrl.h"/>
+    <File Name="../../Src/Controller/LocalRobot.h"/>
+    <File Name="../../Src/Controller/BHToolBar.h"/>
+    <File Name="../../Src/Controller/Statistics.h"/>
+    <File Name="../../Src/Controller/RobotConsole.h"/>
+    <File Name="../../Src/Controller/SimulatedRobot.h"/>
+    <File Name="../../Src/Controller/GameController.h"/>
+    <File Name="../../Src/Controller/RoboCupCtrl.h"/>
+    <File Name="../../Src/Controller/LogPlayer.h"/>
+    <File Name="../../Src/Controller/Controller.qrc"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Tools">
+    <VirtualDirectory Name="Precompiled">
+      <File Name="../../Src/Tools/Precompiled/BHumanPch.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ImageProcessing">
+      <File Name="../../Src/Tools/ImageProcessing/InImageSizeCalculations.cpp" ExcludeProjConfig="Release"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Math">
+      <File Name="../../Src/Tools/Math/Projection.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/Transformation.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/Geometry.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/Random.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/Differentiator.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/RotationMatrix.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/LeastSquares.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Math/CubicSpline.cpp" ExcludeProjConfig="Release"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Modeling">
+      <File Name="../../Src/Tools/Modeling/UKFPose2D.cpp" ExcludeProjConfig="Release"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Motion">
+      <File Name="../../Src/Tools/Motion/LIP.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Motion/InverseKinematic.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Motion/MotionUtilities.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Motion/MofCompiler.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Motion/ForwardKinematic.cpp" ExcludeProjConfig="Release"/>
+      <File Name="../../Src/Tools/Motion/WalkKickEngine.cpp" ExcludeProjConfig="Release"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Util">
+    <VirtualDirectory Name="asmjit">
+      <VirtualDirectory Name="src">
+        <VirtualDirectory Name="asmjit">
+          <VirtualDirectory Name="base">
+            <File Name="../../Util/asmjit/src/asmjit/base/runtime.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/arch.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/osutils.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/cpuinfo.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/utils.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/zone.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codeemitter.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/regalloc.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/inst.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/string.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/func.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codebuilder.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codeholder.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/assembler.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/globals.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/logging.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/constpool.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/operand.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/vmem.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codecompiler.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="x86">
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86inst.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86instimpl.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86regalloc.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86logging.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86assembler.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86operand_regs.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86builder.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86internal.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86compiler.cpp"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Modules">
+    <VirtualDirectory Name="MotionControl">
+      <VirtualDirectory Name="WalkingEngine">
+        <File Name="../../Src/Modules/MotionControl/WalkingEngine/Walk2014Generator.cpp" ExcludeProjConfig="Release"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Sensing">
+      <VirtualDirectory Name="FallDownStateDetector">
+        <File Name="../../Src/Modules/Sensing/FallDownStateDetector/FallDownStateProvider.cpp" ExcludeProjConfig="Release"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="InertialDataProvider">
+        <File Name="../../Src/Modules/Sensing/InertialDataProvider/InertialDataProvider.cpp" ExcludeProjConfig="Release"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Representations">
+    <VirtualDirectory Name="Sensing">
+      <File Name="../../Src/Representations/Sensing/RobotModel.cpp" ExcludeProjConfig="Release"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name=".Qt">
+    <File Name="../../Build/Linux/Controller/Develop/qrc_ControllerDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_BHToolBarDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_AnnotationViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_ColorCalibrationViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_RangeSelectorDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_ThresholdSelectorDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_ConsoleViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_DataWidgetDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_PropertyEditorFactoryDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_PropertyManagerDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_DotViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_StatisticRobotViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_StatisticsPlotViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_ImageViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_JointViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_KickViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_KickViewGLWidgetDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_KickViewWidgetDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_TabWidgetDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_LogPlayerControlViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_PlotViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_SensorViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Develop/moc_TimeViewDevelopLinux.cpp" ExcludeProjConfig="Debug;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/qrc_ControllerDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_BHToolBarDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_AnnotationViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_ColorCalibrationViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_RangeSelectorDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_ThresholdSelectorDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_ConsoleViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_DataWidgetDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_PropertyEditorFactoryDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_PropertyManagerDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_DotViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_StatisticRobotViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_StatisticsPlotViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_ImageViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_JointViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_KickViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_KickViewGLWidgetDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_KickViewWidgetDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_TabWidgetDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_LogPlayerControlViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_PlotViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_SensorViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Debug/moc_TimeViewDebugLinux.cpp" ExcludeProjConfig="Develop;Release"/>
+    <File Name="../../Build/Linux/Controller/Release/qrc_ControllerReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_BHToolBarReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_AnnotationViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_ColorCalibrationViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_RangeSelectorReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_ThresholdSelectorReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_ConsoleViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_DataWidgetReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_PropertyEditorFactoryReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_PropertyManagerReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_DotViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_StatisticRobotViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_StatisticsPlotViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_ImageViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_JointViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_KickViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_KickViewGLWidgetReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_KickViewWidgetReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_TabWidgetReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_LogPlayerControlViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_PlotViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_SensorViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+    <File Name="../../Build/Linux/Controller/Release/moc_TimeViewReleaseLinux.cpp" ExcludeProjConfig="Develop;Debug"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Develop" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="no" PreCompiledHeader=""/>
+      <Linker Options="" Required="no"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../Build/Linux/Controller/Develop/libController.a" IntermediateDirectory="../../Build/Linux/Controller/Develop" Command="./../../Build/Linux/Controller/Develop/libController.a" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true rebuild Controller config=Develop</RebuildCommand>
+        <CleanCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true clean Controller config=Develop</CleanCommand>
+        <BuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true Controller config=Develop</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild>../../Build/Linux/Controller/Develop/moc_LogPlayerControlViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_TimeViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_AnnotationViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_JointViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_ConsoleViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_ImageViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_SensorViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_PlotViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_DotViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_PropertyManagerDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_PropertyEditorFactoryDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_DataWidgetDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_StatisticRobotViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_StatisticsPlotViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_RangeSelectorDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_ColorCalibrationViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_ThresholdSelectorDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_KickViewWidgetDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_KickViewDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_KickViewGLWidgetDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_TabWidgetDevelopLinux.cpp ../../Build/Linux/Controller/Develop/moc_BHToolBarDevelopLinux.cpp ../../Build/Linux/Controller/Develop/qrc_ControllerDevelopLinux.cpp 
+../../Build/Linux/Controller/Develop/moc_LogPlayerControlViewDevelopLinux.cpp: ../../Src/Controller/Views/LogPlayerControlView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/LogPlayerControlView.h -o ../../Build/Linux/Controller/Develop/moc_LogPlayerControlViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_TimeViewDevelopLinux.cpp: ../../Src/Controller/Views/TimeView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/TimeView.h -o ../../Build/Linux/Controller/Develop/moc_TimeViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_AnnotationViewDevelopLinux.cpp: ../../Src/Controller/Views/AnnotationView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/AnnotationView.h -o ../../Build/Linux/Controller/Develop/moc_AnnotationViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_JointViewDevelopLinux.cpp: ../../Src/Controller/Views/JointView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/JointView.h -o ../../Build/Linux/Controller/Develop/moc_JointViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_ConsoleViewDevelopLinux.cpp: ../../Src/Controller/Views/ConsoleView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ConsoleView.h -o ../../Build/Linux/Controller/Develop/moc_ConsoleViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_ImageViewDevelopLinux.cpp: ../../Src/Controller/Views/ImageView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ImageView.h -o ../../Build/Linux/Controller/Develop/moc_ImageViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_SensorViewDevelopLinux.cpp: ../../Src/Controller/Views/SensorView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/SensorView.h -o ../../Build/Linux/Controller/Develop/moc_SensorViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_PlotViewDevelopLinux.cpp: ../../Src/Controller/Views/PlotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/PlotView.h -o ../../Build/Linux/Controller/Develop/moc_PlotViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_DotViewDevelopLinux.cpp: ../../Src/Controller/Views/DotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DotView.h -o ../../Build/Linux/Controller/Develop/moc_DotViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_PropertyManagerDevelopLinux.cpp: ../../Src/Controller/Views/DataView/PropertyManager.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/PropertyManager.h -o ../../Build/Linux/Controller/Develop/moc_PropertyManagerDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_PropertyEditorFactoryDevelopLinux.cpp: ../../Src/Controller/Views/DataView/PropertyEditorFactory.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/PropertyEditorFactory.h -o ../../Build/Linux/Controller/Develop/moc_PropertyEditorFactoryDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_DataWidgetDevelopLinux.cpp: ../../Src/Controller/Views/DataView/DataWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/DataWidget.h -o ../../Build/Linux/Controller/Develop/moc_DataWidgetDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_StatisticRobotViewDevelopLinux.cpp: ../../Src/Controller/Views/Statistics/StatisticRobotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/Statistics/StatisticRobotView.h -o ../../Build/Linux/Controller/Develop/moc_StatisticRobotViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_StatisticsPlotViewDevelopLinux.cpp: ../../Src/Controller/Views/Statistics/StatisticsPlotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/Statistics/StatisticsPlotView.h -o ../../Build/Linux/Controller/Develop/moc_StatisticsPlotViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_RangeSelectorDevelopLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h -o ../../Build/Linux/Controller/Develop/moc_RangeSelectorDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_ColorCalibrationViewDevelopLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h -o ../../Build/Linux/Controller/Develop/moc_ColorCalibrationViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_ThresholdSelectorDevelopLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h -o ../../Build/Linux/Controller/Develop/moc_ThresholdSelectorDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_KickViewWidgetDevelopLinux.cpp: ../../Src/Controller/Views/KickView/KickViewWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickViewWidget.h -o ../../Build/Linux/Controller/Develop/moc_KickViewWidgetDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_KickViewDevelopLinux.cpp: ../../Src/Controller/Views/KickView/KickView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickView.h -o ../../Build/Linux/Controller/Develop/moc_KickViewDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_KickViewGLWidgetDevelopLinux.cpp: ../../Src/Controller/Views/KickView/KickViewGLWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickViewGLWidget.h -o ../../Build/Linux/Controller/Develop/moc_KickViewGLWidgetDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_TabWidgetDevelopLinux.cpp: ../../Src/Controller/Views/KickView/TabWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/TabWidget.h -o ../../Build/Linux/Controller/Develop/moc_TabWidgetDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/moc_BHToolBarDevelopLinux.cpp: ../../Src/Controller/BHToolBar.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Develop -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/BHToolBar.h -o ../../Build/Linux/Controller/Develop/moc_BHToolBarDevelopLinux.cpp
+../../Build/Linux/Controller/Develop/qrc_ControllerDevelopLinux.cpp: ../../Src/Controller/Controller.qrc ../../Src/Controller/Icons/folder.png ../../Src/Controller/Icons/edit_redo.png ../../Src/Controller/Icons/robot.png ../../Src/Controller/Icons/edit_undo.png ../../Src/Controller/Icons/headAngle.png ../../Src/Controller/Icons/sitDown.png ../../Src/Controller/Icons/kick_new.png ../../Src/Controller/Icons/stand.png ../../Src/Controller/Icons/kick_save.png ../../Src/Controller/Icons/arrow_refresh.png ../../Src/Controller/Icons/kick_save_as.png ../../Src/Controller/Icons/upload.png ../../Src/Controller/Icons/page_white_h.png ../../Src/Controller/Icons/kick_open.png ../../Src/Controller/Icons/Player/prevFrame.png ../../Src/Controller/Icons/Player/play.png ../../Src/Controller/Icons/Player/pause.png ../../Src/Controller/Icons/Player/repeat.png ../../Src/Controller/Icons/Player/nextImage.png ../../Src/Controller/Icons/Player/prevImage.png ../../Src/Controller/Icons/Player/stop.png ../../Src/Controller/Icons/Player/nextFrame.png ../../Src/Controller/Icons/Player/loop.png
+	QT_SELECT=5 rcc -name Controller ../../Src/Controller/Controller.qrc -o ../../Build/Linux/Controller/Develop/qrc_ControllerDevelopLinux.cpp
+</CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="no" PreCompiledHeader=""/>
+      <Linker Options="" Required="no"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../Build/Linux/Controller/Debug/libController.a" IntermediateDirectory="../../Build/Linux/Controller/Debug" Command="./../../Build/Linux/Controller/Debug/libController.a" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true rebuild Controller config=Debug</RebuildCommand>
+        <CleanCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true clean Controller config=Debug</CleanCommand>
+        <BuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true Controller config=Debug</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild>../../Build/Linux/Controller/Debug/moc_LogPlayerControlViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_TimeViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_AnnotationViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_JointViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_ConsoleViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_ImageViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_SensorViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_PlotViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_DotViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_PropertyManagerDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_PropertyEditorFactoryDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_DataWidgetDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_StatisticRobotViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_StatisticsPlotViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_RangeSelectorDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_ColorCalibrationViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_ThresholdSelectorDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_KickViewWidgetDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_KickViewDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_KickViewGLWidgetDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_TabWidgetDebugLinux.cpp ../../Build/Linux/Controller/Debug/moc_BHToolBarDebugLinux.cpp ../../Build/Linux/Controller/Debug/qrc_ControllerDebugLinux.cpp 
+../../Build/Linux/Controller/Debug/moc_LogPlayerControlViewDebugLinux.cpp: ../../Src/Controller/Views/LogPlayerControlView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/LogPlayerControlView.h -o ../../Build/Linux/Controller/Debug/moc_LogPlayerControlViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_TimeViewDebugLinux.cpp: ../../Src/Controller/Views/TimeView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/TimeView.h -o ../../Build/Linux/Controller/Debug/moc_TimeViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_AnnotationViewDebugLinux.cpp: ../../Src/Controller/Views/AnnotationView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/AnnotationView.h -o ../../Build/Linux/Controller/Debug/moc_AnnotationViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_JointViewDebugLinux.cpp: ../../Src/Controller/Views/JointView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/JointView.h -o ../../Build/Linux/Controller/Debug/moc_JointViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_ConsoleViewDebugLinux.cpp: ../../Src/Controller/Views/ConsoleView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ConsoleView.h -o ../../Build/Linux/Controller/Debug/moc_ConsoleViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_ImageViewDebugLinux.cpp: ../../Src/Controller/Views/ImageView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ImageView.h -o ../../Build/Linux/Controller/Debug/moc_ImageViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_SensorViewDebugLinux.cpp: ../../Src/Controller/Views/SensorView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/SensorView.h -o ../../Build/Linux/Controller/Debug/moc_SensorViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_PlotViewDebugLinux.cpp: ../../Src/Controller/Views/PlotView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/PlotView.h -o ../../Build/Linux/Controller/Debug/moc_PlotViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_DotViewDebugLinux.cpp: ../../Src/Controller/Views/DotView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DotView.h -o ../../Build/Linux/Controller/Debug/moc_DotViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_PropertyManagerDebugLinux.cpp: ../../Src/Controller/Views/DataView/PropertyManager.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/PropertyManager.h -o ../../Build/Linux/Controller/Debug/moc_PropertyManagerDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_PropertyEditorFactoryDebugLinux.cpp: ../../Src/Controller/Views/DataView/PropertyEditorFactory.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/PropertyEditorFactory.h -o ../../Build/Linux/Controller/Debug/moc_PropertyEditorFactoryDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_DataWidgetDebugLinux.cpp: ../../Src/Controller/Views/DataView/DataWidget.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/DataWidget.h -o ../../Build/Linux/Controller/Debug/moc_DataWidgetDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_StatisticRobotViewDebugLinux.cpp: ../../Src/Controller/Views/Statistics/StatisticRobotView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/Statistics/StatisticRobotView.h -o ../../Build/Linux/Controller/Debug/moc_StatisticRobotViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_StatisticsPlotViewDebugLinux.cpp: ../../Src/Controller/Views/Statistics/StatisticsPlotView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/Statistics/StatisticsPlotView.h -o ../../Build/Linux/Controller/Debug/moc_StatisticsPlotViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_RangeSelectorDebugLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h -o ../../Build/Linux/Controller/Debug/moc_RangeSelectorDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_ColorCalibrationViewDebugLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h -o ../../Build/Linux/Controller/Debug/moc_ColorCalibrationViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_ThresholdSelectorDebugLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h -o ../../Build/Linux/Controller/Debug/moc_ThresholdSelectorDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_KickViewWidgetDebugLinux.cpp: ../../Src/Controller/Views/KickView/KickViewWidget.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickViewWidget.h -o ../../Build/Linux/Controller/Debug/moc_KickViewWidgetDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_KickViewDebugLinux.cpp: ../../Src/Controller/Views/KickView/KickView.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickView.h -o ../../Build/Linux/Controller/Debug/moc_KickViewDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_KickViewGLWidgetDebugLinux.cpp: ../../Src/Controller/Views/KickView/KickViewGLWidget.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickViewGLWidget.h -o ../../Build/Linux/Controller/Debug/moc_KickViewGLWidgetDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_TabWidgetDebugLinux.cpp: ../../Src/Controller/Views/KickView/TabWidget.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/TabWidget.h -o ../../Build/Linux/Controller/Debug/moc_TabWidgetDebugLinux.cpp
+../../Build/Linux/Controller/Debug/moc_BHToolBarDebugLinux.cpp: ../../Src/Controller/BHToolBar.h
+	QT_SELECT=5 moc -DLINUX -D_DEBUG -DEIGEN_INITIALIZE_MATRICES_BY_NAN -DCONFIGURATION=Debug -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/BHToolBar.h -o ../../Build/Linux/Controller/Debug/moc_BHToolBarDebugLinux.cpp
+../../Build/Linux/Controller/Debug/qrc_ControllerDebugLinux.cpp: ../../Src/Controller/Controller.qrc ../../Src/Controller/Icons/folder.png ../../Src/Controller/Icons/edit_redo.png ../../Src/Controller/Icons/robot.png ../../Src/Controller/Icons/edit_undo.png ../../Src/Controller/Icons/headAngle.png ../../Src/Controller/Icons/sitDown.png ../../Src/Controller/Icons/kick_new.png ../../Src/Controller/Icons/stand.png ../../Src/Controller/Icons/kick_save.png ../../Src/Controller/Icons/arrow_refresh.png ../../Src/Controller/Icons/kick_save_as.png ../../Src/Controller/Icons/upload.png ../../Src/Controller/Icons/page_white_h.png ../../Src/Controller/Icons/kick_open.png ../../Src/Controller/Icons/Player/prevFrame.png ../../Src/Controller/Icons/Player/play.png ../../Src/Controller/Icons/Player/pause.png ../../Src/Controller/Icons/Player/repeat.png ../../Src/Controller/Icons/Player/nextImage.png ../../Src/Controller/Icons/Player/prevImage.png ../../Src/Controller/Icons/Player/stop.png ../../Src/Controller/Icons/Player/nextFrame.png ../../Src/Controller/Icons/Player/loop.png
+	QT_SELECT=5 rcc -name Controller ../../Src/Controller/Controller.qrc -o ../../Build/Linux/Controller/Debug/qrc_ControllerDebugLinux.cpp
+</CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="no" PreCompiledHeader=""/>
+      <Linker Options="" Required="no"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../Build/Linux/Controller/Release/libController.a" IntermediateDirectory="../../Build/Linux/Controller/Release" Command="./../../Build/Linux/Controller/Release/libController.a" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true rebuild Controller config=Release</RebuildCommand>
+        <CleanCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true clean Controller config=Release</CleanCommand>
+        <BuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true Controller config=Release</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild>../../Build/Linux/Controller/Release/moc_LogPlayerControlViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_TimeViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_AnnotationViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_JointViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_ConsoleViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_ImageViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_SensorViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_PlotViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_DotViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_PropertyManagerReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_PropertyEditorFactoryReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_DataWidgetReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_StatisticRobotViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_StatisticsPlotViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_RangeSelectorReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_ColorCalibrationViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_ThresholdSelectorReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_KickViewWidgetReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_KickViewReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_KickViewGLWidgetReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_TabWidgetReleaseLinux.cpp ../../Build/Linux/Controller/Release/moc_BHToolBarReleaseLinux.cpp ../../Build/Linux/Controller/Release/qrc_ControllerReleaseLinux.cpp 
+../../Build/Linux/Controller/Release/moc_LogPlayerControlViewReleaseLinux.cpp: ../../Src/Controller/Views/LogPlayerControlView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/LogPlayerControlView.h -o ../../Build/Linux/Controller/Release/moc_LogPlayerControlViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_TimeViewReleaseLinux.cpp: ../../Src/Controller/Views/TimeView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/TimeView.h -o ../../Build/Linux/Controller/Release/moc_TimeViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_AnnotationViewReleaseLinux.cpp: ../../Src/Controller/Views/AnnotationView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/AnnotationView.h -o ../../Build/Linux/Controller/Release/moc_AnnotationViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_JointViewReleaseLinux.cpp: ../../Src/Controller/Views/JointView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/JointView.h -o ../../Build/Linux/Controller/Release/moc_JointViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_ConsoleViewReleaseLinux.cpp: ../../Src/Controller/Views/ConsoleView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ConsoleView.h -o ../../Build/Linux/Controller/Release/moc_ConsoleViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_ImageViewReleaseLinux.cpp: ../../Src/Controller/Views/ImageView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ImageView.h -o ../../Build/Linux/Controller/Release/moc_ImageViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_SensorViewReleaseLinux.cpp: ../../Src/Controller/Views/SensorView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/SensorView.h -o ../../Build/Linux/Controller/Release/moc_SensorViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_PlotViewReleaseLinux.cpp: ../../Src/Controller/Views/PlotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/PlotView.h -o ../../Build/Linux/Controller/Release/moc_PlotViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_DotViewReleaseLinux.cpp: ../../Src/Controller/Views/DotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DotView.h -o ../../Build/Linux/Controller/Release/moc_DotViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_PropertyManagerReleaseLinux.cpp: ../../Src/Controller/Views/DataView/PropertyManager.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/PropertyManager.h -o ../../Build/Linux/Controller/Release/moc_PropertyManagerReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_PropertyEditorFactoryReleaseLinux.cpp: ../../Src/Controller/Views/DataView/PropertyEditorFactory.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/PropertyEditorFactory.h -o ../../Build/Linux/Controller/Release/moc_PropertyEditorFactoryReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_DataWidgetReleaseLinux.cpp: ../../Src/Controller/Views/DataView/DataWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/DataView/DataWidget.h -o ../../Build/Linux/Controller/Release/moc_DataWidgetReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_StatisticRobotViewReleaseLinux.cpp: ../../Src/Controller/Views/Statistics/StatisticRobotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/Statistics/StatisticRobotView.h -o ../../Build/Linux/Controller/Release/moc_StatisticRobotViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_StatisticsPlotViewReleaseLinux.cpp: ../../Src/Controller/Views/Statistics/StatisticsPlotView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/Statistics/StatisticsPlotView.h -o ../../Build/Linux/Controller/Release/moc_StatisticsPlotViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_RangeSelectorReleaseLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/RangeSelector.h -o ../../Build/Linux/Controller/Release/moc_RangeSelectorReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_ColorCalibrationViewReleaseLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/ColorCalibrationView.h -o ../../Build/Linux/Controller/Release/moc_ColorCalibrationViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_ThresholdSelectorReleaseLinux.cpp: ../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/ColorCalibrationView/ThresholdSelector.h -o ../../Build/Linux/Controller/Release/moc_ThresholdSelectorReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_KickViewWidgetReleaseLinux.cpp: ../../Src/Controller/Views/KickView/KickViewWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickViewWidget.h -o ../../Build/Linux/Controller/Release/moc_KickViewWidgetReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_KickViewReleaseLinux.cpp: ../../Src/Controller/Views/KickView/KickView.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickView.h -o ../../Build/Linux/Controller/Release/moc_KickViewReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_KickViewGLWidgetReleaseLinux.cpp: ../../Src/Controller/Views/KickView/KickViewGLWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/KickViewGLWidget.h -o ../../Build/Linux/Controller/Release/moc_KickViewGLWidgetReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_TabWidgetReleaseLinux.cpp: ../../Src/Controller/Views/KickView/TabWidget.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/Views/KickView/TabWidget.h -o ../../Build/Linux/Controller/Release/moc_TabWidgetReleaseLinux.cpp
+../../Build/Linux/Controller/Release/moc_BHToolBarReleaseLinux.cpp: ../../Src/Controller/BHToolBar.h
+	QT_SELECT=5 moc -DLINUX -DNDEBUG -DCONFIGURATION=Release -DQXT_STATIC -DTARGET_SIM -DASMJIT_EMBED -DASMJIT_BUILD_X86 -DASMJIT_DISABLE_BUILDER -DASMJIT_DISABLE_COMPILER -DASMJIT_DISABLE_LOGGING -DASMJIT_DISABLE_TEXT -DASMJIT_DISABLE_VALIDATION -DQT_NO_DEBUG  -I../../Src -I../../Util/SimRobot/Util/Eigen -I../../Util/SimRobot/Src/SimRobot -I../../Util/SimRobot/Src/SimRobotCore2 -I../../Util/SimRobot/Src/SimRobotEditor -I../../Util/GameController/include -I../../Util/libjpeg/src -I../../Util/libqxt -I../../Util/qtpropertybrowser -I../../Util/snappy/include -I../../Util/asmjit/src -I/QtCore -I/QtGui -I/QtOpenGL -I/QtSvg -I/QtWidgets ../../Src/Controller/BHToolBar.h -o ../../Build/Linux/Controller/Release/moc_BHToolBarReleaseLinux.cpp
+../../Build/Linux/Controller/Release/qrc_ControllerReleaseLinux.cpp: ../../Src/Controller/Controller.qrc ../../Src/Controller/Icons/folder.png ../../Src/Controller/Icons/edit_redo.png ../../Src/Controller/Icons/robot.png ../../Src/Controller/Icons/edit_undo.png ../../Src/Controller/Icons/headAngle.png ../../Src/Controller/Icons/sitDown.png ../../Src/Controller/Icons/kick_new.png ../../Src/Controller/Icons/stand.png ../../Src/Controller/Icons/kick_save.png ../../Src/Controller/Icons/arrow_refresh.png ../../Src/Controller/Icons/kick_save_as.png ../../Src/Controller/Icons/upload.png ../../Src/Controller/Icons/page_white_h.png ../../Src/Controller/Icons/kick_open.png ../../Src/Controller/Icons/Player/prevFrame.png ../../Src/Controller/Icons/Player/play.png ../../Src/Controller/Icons/Player/pause.png ../../Src/Controller/Icons/Player/repeat.png ../../Src/Controller/Icons/Player/nextImage.png ../../Src/Controller/Icons/Player/prevImage.png ../../Src/Controller/Icons/Player/stop.png ../../Src/Controller/Icons/Player/nextFrame.png ../../Src/Controller/Icons/Player/loop.png
+	QT_SELECT=5 rcc -name Controller ../../Src/Controller/Controller.qrc -o ../../Build/Linux/Controller/Release/qrc_ControllerReleaseLinux.cpp
+</CustomPreBuild>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Develop">
+  </Dependencies>
+  <Dependencies Name="Debug">
+  </Dependencies>
+  <Dependencies Name="Release">
+  </Dependencies>
+</CodeLite_Project>

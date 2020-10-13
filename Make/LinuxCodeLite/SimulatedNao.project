@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="SimulatedNao" InternalType="Console" Version="10.0.0">
+  <Description/>
+  <VirtualDirectory Name="Modules">
+    <VirtualDirectory Name="MotionControl">
+      <VirtualDirectory Name="GetUpEngine">
+        <File Name="../../Src/Modules/MotionControl/GetUpEngine/GetUpEngine.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/GetUpEngine/GetUpEngine.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="CalibrationStand">
+        <File Name="../../Src/Modules/MotionControl/CalibrationStand/CalibrationStand.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/CalibrationStand/CalibrationStand.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ArmKeyFrameEngine">
+        <File Name="../../Src/Modules/MotionControl/ArmKeyFrameEngine/ArmKeyFrameEngine.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/ArmKeyFrameEngine/ArmKeyFrameMotion.h"/>
+        <File Name="../../Src/Modules/MotionControl/ArmKeyFrameEngine/ArmKeyFrameEngine.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="SpecialActions">
+        <File Name="../../Src/Modules/MotionControl/SpecialActions/SpecialActions.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/SpecialActions/SpecialActions.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="KickEngine">
+        <File Name="../../Src/Modules/MotionControl/KickEngine/KickEngineParameters.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/KickEngine/KickEngineData.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/KickEngine/KickEngine.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/KickEngine/KickEngine.h"/>
+        <File Name="../../Src/Modules/MotionControl/KickEngine/KickEngineData.h"/>
+        <File Name="../../Src/Modules/MotionControl/KickEngine/KickEngineParameters.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="WalkingEngine">
+        <VirtualDirectory Name="Options">
+          <File Name="../../Src/Modules/MotionControl/WalkingEngine/Options/Walking.h"/>
+          <File Name="../../Src/Modules/MotionControl/WalkingEngine/Options/Root.h"/>
+          <File Name="../../Src/Modules/MotionControl/WalkingEngine/Options/UpdateRequest.h"/>
+          <File Name="../../Src/Modules/MotionControl/WalkingEngine/Options/InWalkKick.h"/>
+        </VirtualDirectory>
+        <File Name="../../Src/Modules/MotionControl/WalkingEngine/WalkingEngine.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/WalkingEngine/WalkingEngine.h"/>
+        <File Name="../../Src/Modules/MotionControl/WalkingEngine/Walk2014Generator.h"/>
+        <File Name="../../Src/Modules/MotionControl/WalkingEngine/Walk2014Generator.cpp" ExcludeProjConfig="Develop;Debug"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FallEngine">
+        <File Name="../../Src/Modules/MotionControl/FallEngine/FallEngine.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/FallEngine/FallEngine.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="MotionSelector">
+        <File Name="../../Src/Modules/MotionControl/MotionSelector/MotionSelector.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/MotionSelector/MotionSelector.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="HeadMotionEngine">
+        <File Name="../../Src/Modules/MotionControl/HeadMotionEngine/HeadMotionEngine.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/HeadMotionEngine/HeadMotionEngine.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="MotionCombinator">
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/HeadMotionCombinator.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/MotionCombinator.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/LegMotionCombinator.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/ArmMotionCombinator.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/ArmMotionCombinator.h"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/HeadMotionCombinator.h"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/LegMotionCombinator.h"/>
+        <File Name="../../Src/Modules/MotionControl/MotionCombinator/MotionCombinator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Balancer">
+        <File Name="../../Src/Modules/MotionControl/Balancer/ZmpController.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/Balancer/ZmpBalancer.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/Balancer/LIPStateEstimator.cpp"/>
+        <File Name="../../Src/Modules/MotionControl/Balancer/ZmpController.h"/>
+        <File Name="../../Src/Modules/MotionControl/Balancer/LIPStateEstimator.h"/>
+        <File Name="../../Src/Modules/MotionControl/Balancer/ZmpBalancer.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Sensing">
+      <VirtualDirectory Name="SitCommander">
+        <File Name="../../Src/Modules/Sensing/SitCommander/SitCommander.cpp"/>
+        <File Name="../../Src/Modules/Sensing/SitCommander/SitCommander.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="GroundContactDetector">
+        <File Name="../../Src/Modules/Sensing/GroundContactDetector/GroundContactDetector.cpp"/>
+        <File Name="../../Src/Modules/Sensing/GroundContactDetector/GroundContactDetector.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="TorsoMatrixProvider">
+        <File Name="../../Src/Modules/Sensing/TorsoMatrixProvider/TorsoMatrixProvider.cpp"/>
+        <File Name="../../Src/Modules/Sensing/TorsoMatrixProvider/TorsoMatrixProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="RobotModelProvider">
+        <File Name="../../Src/Modules/Sensing/RobotModelProvider/RobotModelProvider.cpp"/>
+        <File Name="../../Src/Modules/Sensing/RobotModelProvider/RobotModelProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FootSupportProvider">
+        <File Name="../../Src/Modules/Sensing/FootSupportProvider/FootSupportProvider.cpp"/>
+        <File Name="../../Src/Modules/Sensing/FootSupportProvider/FootSupportProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FootBumperStateProvider">
+        <File Name="../../Src/Modules/Sensing/FootBumperStateProvider/FootBumperStateProvider.cpp"/>
+        <File Name="../../Src/Modules/Sensing/FootBumperStateProvider/FootBumperStateProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ArmContactModelProvider">
+        <File Name="../../Src/Modules/Sensing/ArmContactModelProvider/ArmContactModelProvider.cpp"/>
+        <File Name="../../Src/Modules/Sensing/ArmContactModelProvider/ArmContactModelProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BodyBoundaryProvider">
+        <File Name="../../Src/Modules/Sensing/BodyBoundaryProvider/BodyBoundaryProvider.cpp"/>
+        <File Name="../../Src/Modules/Sensing/BodyBoundaryProvider/BodyBoundaryProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="InertialDataProvider">
+        <File Name="../../Src/Modules/Sensing/InertialDataProvider/InertialDataProvider.h"/>
+        <File Name="../../Src/Modules/Sensing/InertialDataProvider/InertialDataProvider.cpp" ExcludeProjConfig="Develop;Debug"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FallDownStateDetector">
+        <File Name="../../Src/Modules/Sensing/FallDownStateDetector/FallDownStateProvider.h"/>
+        <File Name="../../Src/Modules/Sensing/FallDownStateDetector/FallDownStateProvider.cpp" ExcludeProjConfig="Develop;Debug"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Communication">
+      <VirtualDirectory Name="TeamMessageHandler">
+        <File Name="../../Src/Modules/Communication/TeamMessageHandler/TeamMessageHandler.cpp"/>
+        <File Name="../../Src/Modules/Communication/TeamMessageHandler/TeamMessageHandler.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Perception">
+      <VirtualDirectory Name="ObstaclesPerceptors">
+        <File Name="../../Src/Modules/Perception/ObstaclesPerceptors/ObstaclesPerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/ObstaclesPerceptors/ObstaclesPerceptor.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Scanlines">
+        <File Name="../../Src/Modules/Perception/Scanlines/ColorScanlineRegionizer.cpp"/>
+        <File Name="../../Src/Modules/Perception/Scanlines/HiResColorScanlineRegionizer.cpp"/>
+        <File Name="../../Src/Modules/Perception/Scanlines/ScanGridProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/Scanlines/ColorScanlineRegionizer.h"/>
+        <File Name="../../Src/Modules/Perception/Scanlines/ScanGridProvider.h"/>
+        <File Name="../../Src/Modules/Perception/Scanlines/HiResColorScanlineRegionizer.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BallPerceptors">
+        <File Name="../../Src/Modules/Perception/BallPerceptors/BallSpotsProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/BallPerceptors/BallCorrector.cpp"/>
+        <File Name="../../Src/Modules/Perception/BallPerceptors/NNBallPerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/BallPerceptors/BallSpotsProvider.h"/>
+        <File Name="../../Src/Modules/Perception/BallPerceptors/BallCorrector.h"/>
+        <File Name="../../Src/Modules/Perception/BallPerceptors/NNBallPerceptor.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FieldFeatures">
+        <File Name="../../Src/Modules/Perception/FieldFeatures/PenaltyAreaPerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/FieldFeatureOverviewProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/GoalFramePerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/MidCornerPerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/MidCirclePerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/OuterCornerPerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/PenaltyAreaPerceptor.h"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/FieldFeatureOverviewProvider.h"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/MidCirclePerceptor.h"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/MidCornerPerceptor.h"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/OuterCornerPerceptor.h"/>
+        <File Name="../../Src/Modules/Perception/FieldFeatures/GoalFramePerceptor.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FieldPerceptors">
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/FieldLinesProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/PenaltyMarkRegionsProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/PenaltyMarkPerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/LinePerceptor.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/IntersectionsProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/PenaltyMarkPerceptor.h"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/LinePerceptor.h"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/PenaltyMarkRegionsProvider.h"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/IntersectionsProvider.h"/>
+        <File Name="../../Src/Modules/Perception/FieldPerceptors/FieldLinesProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ImagePreprocessors">
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CNSImageProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/BodyContourProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/FieldBoundaryProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/ECImageProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CoordinateSystemProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CNSRegionsProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CameraMatrixProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/RobotCameraMatrixProvider.cpp"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/RobotCameraMatrixProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CameraMatrixProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CNSImageProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/BodyContourProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/ECImageProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CoordinateSystemProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/FieldBoundaryProvider.h"/>
+        <File Name="../../Src/Modules/Perception/ImagePreprocessors/CNSRegionsProvider.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Modules/Perception/OracledPerceptsProvider.cpp"/>
+      <File Name="../../Src/Modules/Perception/OracledPerceptsProvider.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Configuration">
+      <VirtualDirectory Name="DynamicGlobalOptionsProvider">
+        <File Name="../../Src/Modules/Configuration/DynamicGlobalOptionsProvider/DynamicGlobalOptionsProvider.cpp"/>
+        <File Name="../../Src/Modules/Configuration/DynamicGlobalOptionsProvider/DynamicGlobalOptionsProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FrictionLearner">
+        <File Name="../../Src/Modules/Configuration/FrictionLearner/FrictionLearner.cpp"/>
+        <File Name="../../Src/Modules/Configuration/FrictionLearner/FrictionLearner.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="CameraCalibrator">
+        <File Name="../../Src/Modules/Configuration/CameraCalibrator/AutomaticCameraCalibrator.cpp"/>
+        <File Name="../../Src/Modules/Configuration/CameraCalibrator/AutomaticCameraCalibrator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="JointCalibrator">
+        <File Name="../../Src/Modules/Configuration/JointCalibrator/JointCalibrator.cpp"/>
+        <File Name="../../Src/Modules/Configuration/JointCalibrator/JointCalibrator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="AutoExposureWeightTableProvider">
+        <File Name="../../Src/Modules/Configuration/AutoExposureWeightTableProvider/AutoExposureWeightTableProvider.cpp"/>
+        <File Name="../../Src/Modules/Configuration/AutoExposureWeightTableProvider/AutoExposureWeightTableProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ConfigurationDataProvider">
+        <File Name="../../Src/Modules/Configuration/ConfigurationDataProvider/CognitionConfigurationDataProvider.cpp"/>
+        <File Name="../../Src/Modules/Configuration/ConfigurationDataProvider/MotionConfigurationDataProvider.cpp"/>
+        <File Name="../../Src/Modules/Configuration/ConfigurationDataProvider/CognitionConfigurationDataProvider.h"/>
+        <File Name="../../Src/Modules/Configuration/ConfigurationDataProvider/MotionConfigurationDataProvider.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="BehaviorControl">
+      <VirtualDirectory Name="CameraControlEngine">
+        <File Name="../../Src/Modules/BehaviorControl/CameraControlEngine/CameraControlEngine.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/CameraControlEngine/CameraControlEngine.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="LEDHandler">
+        <File Name="../../Src/Modules/BehaviorControl/LEDHandler/LEDHandler.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/LEDHandler/LEDHandler.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="PathPlannerProvider">
+        <File Name="../../Src/Modules/BehaviorControl/PathPlannerProvider/PathPlannerProvider.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/PathPlannerProvider/PathPlannerProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BehaviorControl">
+        <VirtualDirectory Name="HeadControl2018">
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/HeadControl2018/HeadControl2018.cpp"/>
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/HeadControl2018/HeadControl2018.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Tools">
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Tools/BehaviorOption.cpp"/>
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Tools/BehaviorOptionRegistry.cpp"/>
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Tools/HeadControlMode.h"/>
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Tools/BehaviorOption.h"/>
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Tools/BehaviorOptionRegistry.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Options">
+          <VirtualDirectory Name="Output">
+            <VirtualDirectory Name="HeadMotionRequest">
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/HeadMotionRequest/SetHeadTargetOnGround.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/HeadMotionRequest/SetHeadTarget.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/HeadMotionRequest/SetHeadPanTilt.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="MotionRequest">
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/GetUpEngine.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/WalkAtAbsoluteSpeed.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/WalkToTarget.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/InWalkKick.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/WalkAtRelativeSpeed.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/Stand.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/Shoot.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/MotionRequest/SpecialAction.h"/>
+            </VirtualDirectory>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/HeadControlMode.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/Annotation.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/Activity.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Output/PlaySound.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="HeadControl">
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/LookForward.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/HeadMiddle.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/LookLeftandRight.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/HeadTurnMiddle.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/HeadPanTurn.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/FixPointRotate.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/HeadControl/FollowTheTarget.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Roles">
+            <VirtualDirectory Name="Striker2">
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Roles/Striker2/Striker2_attack.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Roles/Striker2/Striker2.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Striker5">
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Roles/Striker5/Striker5.h"/>
+              <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Roles/Striker5/Striker5_attack.h"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="seniorSkill">
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/seniorSkill/WalkToBallState.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/seniorSkill/SearchForBallStay.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/seniorSkill/SearchForBallNoBallState.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/seniorSkill/Kick.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Tools">
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Tools/USBCheck.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Tools/ButtonPressedAndReleased.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Tools/Cout_text.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="GameControl">
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/GameControl/FinishedState.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/GameControl/HandlePenaltyState.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/GameControl/Ready.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/GameControl/test.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/GameControl/HandleGameState.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="Skills">
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Skills/WalkRotate.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Skills/WalkToTargetDes.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Skills/GetUp.h"/>
+            <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Skills/FollowTarget.h"/>
+          </VirtualDirectory>
+          <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options/Soccer.h"/>
+        </VirtualDirectory>
+        <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Soccer.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/BehaviorControl.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/BehaviorControl.h"/>
+        <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Options.h"/>
+        <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/ParameterDefine.h"/>
+        <File Name="../../Src/Modules/BehaviorControl/BehaviorControl/Soccer.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Libraries">
+        <File Name="../../Src/Modules/BehaviorControl/Libraries/ControlParameterProvider.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/Libraries/ControlParameterProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ManualHeadMotionProvider">
+        <File Name="../../Src/Modules/BehaviorControl/ManualHeadMotionProvider/ManualHeadMotionProvider.cpp"/>
+        <File Name="../../Src/Modules/BehaviorControl/ManualHeadMotionProvider/ManualHeadMotionProvider.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Infrastructure">
+      <VirtualDirectory Name="LowFrameRateImageProvider">
+        <File Name="../../Src/Modules/Infrastructure/LowFrameRateImageProvider/LowFrameRateImageProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/LowFrameRateImageProvider/LowFrameRateImageProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ThumbnailProvider">
+        <File Name="../../Src/Modules/Infrastructure/ThumbnailProvider/ThumbnailProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/ThumbnailProvider/ThumbnailProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="LogDataProvider">
+        <File Name="../../Src/Modules/Infrastructure/LogDataProvider/LogDataProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/LogDataProvider/MotionLogDataProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/LogDataProvider/CognitionLogDataProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/LogDataProvider/MotionLogDataProvider.h"/>
+        <File Name="../../Src/Modules/Infrastructure/LogDataProvider/CognitionLogDataProvider.h"/>
+        <File Name="../../Src/Modules/Infrastructure/LogDataProvider/LogDataProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="CameraImageProvider">
+        <File Name="../../Src/Modules/Infrastructure/CameraImageProvider/CameraImageProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/CameraImageProvider/CameraImageProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="SoundFileTester">
+        <File Name="../../Src/Modules/Infrastructure/SoundFileTester/SoundFileTester.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/SoundFileTester/SoundFileTester.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="CameraProvider">
+        <File Name="../../Src/Modules/Infrastructure/CameraProvider/CameraProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/CameraProvider/CameraProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="JointAnglesProvider">
+        <File Name="../../Src/Modules/Infrastructure/JointAnglesProvider/JointAnglesProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/JointAnglesProvider/JointAnglesProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="WhistleHandler">
+        <File Name="../../Src/Modules/Infrastructure/WhistleHandler/WhistleHandler.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/WhistleHandler/WhistleHandler.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="RobotHealthProvider">
+        <File Name="../../Src/Modules/Infrastructure/RobotHealthProvider/RobotHealthProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/RobotHealthProvider/MotionRobotHealthProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/RobotHealthProvider/RobotHealthProvider.h"/>
+        <File Name="../../Src/Modules/Infrastructure/RobotHealthProvider/MotionRobotHealthProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="AudioProvider">
+        <File Name="../../Src/Modules/Infrastructure/AudioProvider/AudioProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/AudioProvider/AudioProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="NaoProvider">
+        <File Name="../../Src/Modules/Infrastructure/NaoProvider/NaoProvider.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/NaoProvider/NaoProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="CognitionStateChangeListener">
+        <File Name="../../Src/Modules/Infrastructure/CognitionStateChangeListener/CognitionStateChangeListener.cpp"/>
+        <File Name="../../Src/Modules/Infrastructure/CognitionStateChangeListener/CognitionStateChangeListener.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Modules/Infrastructure/NNTester.cpp"/>
+      <File Name="../../Src/Modules/Infrastructure/NNTester.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Modeling">
+      <VirtualDirectory Name="WorldModelPredictor">
+        <File Name="../../Src/Modules/Modeling/WorldModelPredictor/WorldModelPredictor.cpp"/>
+        <File Name="../../Src/Modules/Modeling/WorldModelPredictor/WorldModelPredictor.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ObstacleModelProvider">
+        <File Name="../../Src/Modules/Modeling/ObstacleModelProvider/ObstacleHypothesis.cpp"/>
+        <File Name="../../Src/Modules/Modeling/ObstacleModelProvider/ObstacleModelProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/ObstacleModelProvider/ObstacleModelProvider.h"/>
+        <File Name="../../Src/Modules/Modeling/ObstacleModelProvider/ObstacleHypothesis.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BallDropInLocator">
+        <File Name="../../Src/Modules/Modeling/BallDropInLocator/BallDropInLocator.cpp"/>
+        <File Name="../../Src/Modules/Modeling/BallDropInLocator/BallDropInLocator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="OdometryOnlySelfLocator">
+        <File Name="../../Src/Modules/Modeling/OdometryOnlySelfLocator/OdometryOnlySelfLocator.cpp"/>
+        <File Name="../../Src/Modules/Modeling/OdometryOnlySelfLocator/OdometryOnlySelfLocator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="OwnSideModelProvider">
+        <File Name="../../Src/Modules/Modeling/OwnSideModelProvider/OwnSideModelProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/OwnSideModelProvider/OwnSideModelProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="WhistleRecognizer">
+        <File Name="../../Src/Modules/Modeling/WhistleRecognizer/WhistleRecognizer112.cpp"/>
+        <File Name="../../Src/Modules/Modeling/WhistleRecognizer/WhistleRecognizer112.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="TeamBallLocator">
+        <File Name="../../Src/Modules/Modeling/TeamBallLocator/TeamBallLocator.cpp"/>
+        <File Name="../../Src/Modules/Modeling/TeamBallLocator/TeamBallLocator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="AlternativeRobotPoseProvider">
+        <File Name="../../Src/Modules/Modeling/AlternativeRobotPoseProvider/AlternativeRobotPoseProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/AlternativeRobotPoseProvider/AlternativeRobotPoseProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="TeamPlayersLocator">
+        <File Name="../../Src/Modules/Modeling/TeamPlayersLocator/TeamPlayersLocator.cpp"/>
+        <File Name="../../Src/Modules/Modeling/TeamPlayersLocator/TeamPlayersLocator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BallStateEstimator">
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/BallStateEstimator.cpp"/>
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/BallPerceptFilter.cpp"/>
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/BallContactDetector.cpp"/>
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/BallContactDetector.h"/>
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/BallStateEstimator.h"/>
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/KalmanFilterBallHypothesis.h"/>
+        <File Name="../../Src/Modules/Modeling/BallStateEstimator/BallPerceptFilter.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="SelfLocator">
+        <File Name="../../Src/Modules/Modeling/SelfLocator/UKFSample.cpp"/>
+        <File Name="../../Src/Modules/Modeling/SelfLocator/SelfLocator.cpp"/>
+        <File Name="../../Src/Modules/Modeling/SelfLocator/UKFSample.h"/>
+        <File Name="../../Src/Modules/Modeling/SelfLocator/SelfLocator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="OracledWorldModelProvider">
+        <File Name="../../Src/Modules/Modeling/OracledWorldModelProvider/OracledWorldModelProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/OracledWorldModelProvider/OracledWorldModelProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="OdometerProvider">
+        <File Name="../../Src/Modules/Modeling/OdometerProvider/OdometerProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/OdometerProvider/OdometerProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="SideConfidenceProvider">
+        <File Name="../../Src/Modules/Modeling/SideConfidenceProvider/SideConfidenceProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/SideConfidenceProvider/SideConfidenceProvider.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FieldCoverage">
+        <File Name="../../Src/Modules/Modeling/FieldCoverage/FieldCoverageProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/FieldCoverage/GlobalFieldCoverageProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/FieldCoverage/HulkFieldCoverageProvider.cpp"/>
+        <File Name="../../Src/Modules/Modeling/FieldCoverage/GlobalFieldCoverageProvider.h"/>
+        <File Name="../../Src/Modules/Modeling/FieldCoverage/FieldCoverageProvider.h"/>
+        <File Name="../../Src/Modules/Modeling/FieldCoverage/HulkFieldCoverageProvider.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Platform">
+    <VirtualDirectory Name="Linux">
+      <File Name="../../Src/Platform/Linux/SystemCall.cpp"/>
+      <File Name="../../Src/Platform/Linux/ThreadBase.cpp"/>
+      <File Name="../../Src/Platform/Linux/Semaphore.cpp"/>
+      <File Name="../../Src/Platform/Linux/Time.cpp"/>
+      <File Name="../../Src/Platform/Linux/Memory.cpp"/>
+      <File Name="../../Src/Platform/Linux/File.cpp"/>
+      <File Name="../../Src/Platform/Linux/SoundPlayer.cpp"/>
+      <File Name="../../Src/Platform/Linux/BHAssert.cpp"/>
+      <File Name="../../Src/Platform/Linux/Thread.cpp"/>
+      <File Name="../../Src/Platform/Linux/SoundPlayer.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="SimulatedNao">
+      <File Name="../../Src/Platform/SimulatedNao/Robot.cpp"/>
+      <File Name="../../Src/Platform/SimulatedNao/Robot.h"/>
+    </VirtualDirectory>
+    <File Name="../../Src/Platform/SystemCall.cpp"/>
+    <File Name="../../Src/Platform/File.cpp"/>
+    <File Name="../../Src/Platform/Camera.h"/>
+    <File Name="../../Src/Platform/Semaphore.h"/>
+    <File Name="../../Src/Platform/Thread.h"/>
+    <File Name="../../Src/Platform/Memory.h"/>
+    <File Name="../../Src/Platform/BHAssert.h"/>
+    <File Name="../../Src/Platform/Time.h"/>
+    <File Name="../../Src/Platform/File.h"/>
+    <File Name="../../Src/Platform/SystemCall.h"/>
+    <File Name="../../Src/Platform/DebugHandler.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Processes">
+    <File Name="../../Src/Processes/Motion.cpp"/>
+    <File Name="../../Src/Processes/Cognition.cpp"/>
+    <File Name="../../Src/Processes/Debug.cpp"/>
+    <File Name="../../Src/Processes/Debug.h"/>
+    <File Name="../../Src/Processes/Motion.h"/>
+    <File Name="../../Src/Processes/Cognition.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Representations">
+    <VirtualDirectory Name="MotionControl">
+      <File Name="../../Src/Representations/MotionControl/MotionRequest.cpp"/>
+      <File Name="../../Src/Representations/MotionControl/LegMotionSelection.cpp"/>
+      <File Name="../../Src/Representations/MotionControl/KickRequest.cpp"/>
+      <File Name="../../Src/Representations/MotionControl/SpecialActionRequest.cpp"/>
+      <File Name="../../Src/Representations/MotionControl/HeadMotionEngineOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/SpecialActionsOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/GetUpEngineOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/ArmMotionSelection.h"/>
+      <File Name="../../Src/Representations/MotionControl/KickRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/KickEngineOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/GetUpEngineOutputLog.h"/>
+      <File Name="../../Src/Representations/MotionControl/LegMotionSelection.h"/>
+      <File Name="../../Src/Representations/MotionControl/FallEngineOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/HeadMotionRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/WalkRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/Balancer.h"/>
+      <File Name="../../Src/Representations/MotionControl/MotionRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/ArmKeyFrameEngineOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/SpecialActionRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/WalkingEngineOutput.h"/>
+      <File Name="../../Src/Representations/MotionControl/MotionInfo.h"/>
+      <File Name="../../Src/Representations/MotionControl/ArmMotionRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/HeadAngleRequest.h"/>
+      <File Name="../../Src/Representations/MotionControl/WalkGenerator.h"/>
+      <File Name="../../Src/Representations/MotionControl/OdometryData.h"/>
+      <File Name="../../Src/Representations/MotionControl/ArmKeyFrameRequest.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Sensing">
+      <File Name="../../Src/Representations/Sensing/TorsoMatrix.cpp"/>
+      <File Name="../../Src/Representations/Sensing/BodyBoundary.cpp"/>
+      <File Name="../../Src/Representations/Sensing/FallDownState.cpp"/>
+      <File Name="../../Src/Representations/Sensing/RobotModel.cpp"/>
+      <File Name="../../Src/Representations/Sensing/InertialData.cpp"/>
+      <File Name="../../Src/Representations/Sensing/TorsoMatrix.h"/>
+      <File Name="../../Src/Representations/Sensing/FootSupport.h"/>
+      <File Name="../../Src/Representations/Sensing/GroundContactState.h"/>
+      <File Name="../../Src/Representations/Sensing/FallDownState.h"/>
+      <File Name="../../Src/Representations/Sensing/SitCommand.h"/>
+      <File Name="../../Src/Representations/Sensing/ArmContactModel.h"/>
+      <File Name="../../Src/Representations/Sensing/FootBumperState.h"/>
+      <File Name="../../Src/Representations/Sensing/BodyBoundary.h"/>
+      <File Name="../../Src/Representations/Sensing/RobotModel.h"/>
+      <File Name="../../Src/Representations/Sensing/InertialData.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Communication">
+      <VirtualDirectory Name="BHumanTeamMessageParts">
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BHumanStandardMessage.cpp"/>
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BSPLStandardMessage.cpp"/>
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BHumanArbitraryMessage.cpp"/>
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BHumanStandardMessage.h"/>
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BHumanMessageParticle.h"/>
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BHumanArbitraryMessage.h"/>
+        <File Name="../../Src/Representations/Communication/BHumanTeamMessageParts/BSPLStandardMessage.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Representations/Communication/TeamData.cpp"/>
+      <File Name="../../Src/Representations/Communication/BHumanMessage.h"/>
+      <File Name="../../Src/Representations/Communication/TeamData.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Perception">
+      <VirtualDirectory Name="FieldPercepts">
+        <File Name="../../Src/Representations/Perception/FieldPercepts/CirclePercept.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/PenaltyMarkPercept.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/FieldLineIntersections.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/FieldLines.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/LinesPercept.h"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/PenaltyMarkPercept.h"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/FieldLines.h"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/IntersectionsPercept.h"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/CirclePercept.h"/>
+        <File Name="../../Src/Representations/Perception/FieldPercepts/FieldLineIntersections.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ObstaclesPercepts">
+        <File Name="../../Src/Representations/Perception/ObstaclesPercepts/ObstaclesFieldPercept.cpp"/>
+        <File Name="../../Src/Representations/Perception/ObstaclesPercepts/ObstaclesImagePercept.cpp"/>
+        <File Name="../../Src/Representations/Perception/ObstaclesPercepts/ObstaclesImagePercept.h"/>
+        <File Name="../../Src/Representations/Perception/ObstaclesPercepts/ObstaclesFieldPercept.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="FieldFeatures">
+        <File Name="../../Src/Representations/Perception/FieldFeatures/OuterCorner.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldFeature.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/GoalFrame.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/MidCorner.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldMarker.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldFeatureOverview.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldRelations.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/PenaltyArea.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/MidCircle.cpp"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/PenaltyArea.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldRelations.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/GoalFrame.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/MidCorner.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldMarker.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/OuterCorner.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldFeatureCheck.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldFeatureOverview.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/PenaltyMarkSpots.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/FieldFeature.h"/>
+        <File Name="../../Src/Representations/Perception/FieldFeatures/MidCircle.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BallPercepts">
+        <File Name="../../Src/Representations/Perception/BallPercepts/BallSpots.cpp"/>
+        <File Name="../../Src/Representations/Perception/BallPercepts/BallPercept.cpp"/>
+        <File Name="../../Src/Representations/Perception/BallPercepts/BallSpots.h"/>
+        <File Name="../../Src/Representations/Perception/BallPercepts/ConfirmedBallSpot.h"/>
+        <File Name="../../Src/Representations/Perception/BallPercepts/BallPercept.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ImagePreprocessing">
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ImageCoordinateSystem.cpp"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/BodyContour.cpp"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/CameraMatrix.cpp"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ScanGrid.cpp"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/FieldBoundary.cpp"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ColorScanlineRegions.cpp"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/CNSImage.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ImageCoordinateSystem.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ColorScanlineRegions.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/CameraMatrix.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ImageRegions.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/SobelImage.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ECImage.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/BodyContour.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/ScanGrid.h"/>
+        <File Name="../../Src/Representations/Perception/ImagePreprocessing/FieldBoundary.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Configuration">
+      <File Name="../../Src/Representations/Configuration/FieldDimensions.cpp"/>
+      <File Name="../../Src/Representations/Configuration/HeadLimits.cpp"/>
+      <File Name="../../Src/Representations/Configuration/AutoExposureWeightTable.cpp"/>
+      <File Name="../../Src/Representations/Configuration/JointCalibration.h"/>
+      <File Name="../../Src/Representations/Configuration/JointLimits.h"/>
+      <File Name="../../Src/Representations/Configuration/MassCalibration.h"/>
+      <File Name="../../Src/Representations/Configuration/CameraCalibration.h"/>
+      <File Name="../../Src/Representations/Configuration/GlobalOptions.h"/>
+      <File Name="../../Src/Representations/Configuration/FieldDimensions.h"/>
+      <File Name="../../Src/Representations/Configuration/RobotDimensions.h"/>
+      <File Name="../../Src/Representations/Configuration/IMUCalibration.h"/>
+      <File Name="../../Src/Representations/Configuration/BehaviorParameters.h"/>
+      <File Name="../../Src/Representations/Configuration/HeadLimits.h"/>
+      <File Name="../../Src/Representations/Configuration/FieldColors.h"/>
+      <File Name="../../Src/Representations/Configuration/WalkKicks.h"/>
+      <File Name="../../Src/Representations/Configuration/GetupMotion.h"/>
+      <File Name="../../Src/Representations/Configuration/DamageConfiguration.h"/>
+      <File Name="../../Src/Representations/Configuration/BallSpecification.h"/>
+      <File Name="../../Src/Representations/Configuration/AutoExposureWeightTable.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="BehaviorControl">
+      <VirtualDirectory Name="Libraries">
+        <File Name="../../Src/Representations/BehaviorControl/Libraries/ControlParameter.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Representations/BehaviorControl/Role.cpp"/>
+      <File Name="../../Src/Representations/BehaviorControl/BehaviorStatus.h"/>
+      <File Name="../../Src/Representations/BehaviorControl/ActivationGraph.h"/>
+      <File Name="../../Src/Representations/BehaviorControl/RoleCheck.h"/>
+      <File Name="../../Src/Representations/BehaviorControl/Role.h"/>
+      <File Name="../../Src/Representations/BehaviorControl/PathPlanner.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Infrastructure">
+      <VirtualDirectory Name="SensorData">
+        <File Name="../../Src/Representations/Infrastructure/SensorData/SensorDataDrawings.cpp"/>
+        <File Name="../../Src/Representations/Infrastructure/SensorData/FsrSensorData.h"/>
+        <File Name="../../Src/Representations/Infrastructure/SensorData/SystemSensorData.h"/>
+        <File Name="../../Src/Representations/Infrastructure/SensorData/KeyStates.h"/>
+        <File Name="../../Src/Representations/Infrastructure/SensorData/InertialSensorData.h"/>
+        <File Name="../../Src/Representations/Infrastructure/SensorData/JointSensorData.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Representations/Infrastructure/GameInfo.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/ImagePatches.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/RobotInfo.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraResolution.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/TeamInfo.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/Image.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraInfo.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraSettings.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/JointAngles.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/JPEGImage.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/RobotHealth.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/Thumbnail.cpp"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraStatus.h"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraSettings.h"/>
+      <File Name="../../Src/Representations/Infrastructure/LowFrameRateImage.h"/>
+      <File Name="../../Src/Representations/Infrastructure/TeamInfo.h"/>
+      <File Name="../../Src/Representations/Infrastructure/FrameInfo.h"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraImage.h"/>
+      <File Name="../../Src/Representations/Infrastructure/GameInfo.h"/>
+      <File Name="../../Src/Representations/Infrastructure/AudioData.h"/>
+      <File Name="../../Src/Representations/Infrastructure/RobotInfo.h"/>
+      <File Name="../../Src/Representations/Infrastructure/CognitionStateChanges.h"/>
+      <File Name="../../Src/Representations/Infrastructure/JointRequest.h"/>
+      <File Name="../../Src/Representations/Infrastructure/Thumbnail.h"/>
+      <File Name="../../Src/Representations/Infrastructure/StiffnessData.h"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraResolution.h"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraInfo.h"/>
+      <File Name="../../Src/Representations/Infrastructure/JointAngles.h"/>
+      <File Name="../../Src/Representations/Infrastructure/RoboCupGameControlData.h"/>
+      <File Name="../../Src/Representations/Infrastructure/GroundTruthWorldState.h"/>
+      <File Name="../../Src/Representations/Infrastructure/LEDRequest.h"/>
+      <File Name="../../Src/Representations/Infrastructure/RobotHealth.h"/>
+      <File Name="../../Src/Representations/Infrastructure/Image.h"/>
+      <File Name="../../Src/Representations/Infrastructure/JPEGImage.h"/>
+      <File Name="../../Src/Representations/Infrastructure/DummyRepresentation.h"/>
+      <File Name="../../Src/Representations/Infrastructure/CameraIntrinsics.h"/>
+      <File Name="../../Src/Representations/Infrastructure/ImagePatches.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Modeling">
+      <File Name="../../Src/Representations/Modeling/SelfLocalizationHypotheses.cpp"/>
+      <File Name="../../Src/Representations/Modeling/FieldCoverage.cpp"/>
+      <File Name="../../Src/Representations/Modeling/WorldModelPrediction.cpp"/>
+      <File Name="../../Src/Representations/Modeling/LabelImage.cpp"/>
+      <File Name="../../Src/Representations/Modeling/TeamBallModel.cpp"/>
+      <File Name="../../Src/Representations/Modeling/FilteredBallPercepts.cpp"/>
+      <File Name="../../Src/Representations/Modeling/BallDropInModel.cpp"/>
+      <File Name="../../Src/Representations/Modeling/GlobalFieldCoverage.cpp"/>
+      <File Name="../../Src/Representations/Modeling/AlternativeRobotPoseHypothesis.cpp"/>
+      <File Name="../../Src/Representations/Modeling/TeamPlayersModel.cpp"/>
+      <File Name="../../Src/Representations/Modeling/RobotPose.cpp"/>
+      <File Name="../../Src/Representations/Modeling/BallModel.cpp"/>
+      <File Name="../../Src/Representations/Modeling/BallContactWithRobot.cpp"/>
+      <File Name="../../Src/Representations/Modeling/ObstacleModel.cpp"/>
+      <File Name="../../Src/Representations/Modeling/BallContactWithRobot.h"/>
+      <File Name="../../Src/Representations/Modeling/LabelImage.h"/>
+      <File Name="../../Src/Representations/Modeling/GlobalFieldCoverage.h"/>
+      <File Name="../../Src/Representations/Modeling/FilteredBallPercepts.h"/>
+      <File Name="../../Src/Representations/Modeling/BallModel.h"/>
+      <File Name="../../Src/Representations/Modeling/TeamPlayersModel.h"/>
+      <File Name="../../Src/Representations/Modeling/AlternativeRobotPoseHypothesis.h"/>
+      <File Name="../../Src/Representations/Modeling/BallDropInModel.h"/>
+      <File Name="../../Src/Representations/Modeling/Whistle.h"/>
+      <File Name="../../Src/Representations/Modeling/WorldModelPrediction.h"/>
+      <File Name="../../Src/Representations/Modeling/FieldCoverage.h"/>
+      <File Name="../../Src/Representations/Modeling/HulkFieldCoverage.h"/>
+      <File Name="../../Src/Representations/Modeling/ObstacleModel.h"/>
+      <File Name="../../Src/Representations/Modeling/SideConfidence.h"/>
+      <File Name="../../Src/Representations/Modeling/SelfLocalizationHypotheses.h"/>
+      <File Name="../../Src/Representations/Modeling/OwnSideModel.h"/>
+      <File Name="../../Src/Representations/Modeling/Odometer.h"/>
+      <File Name="../../Src/Representations/Modeling/TeamBallModel.h"/>
+      <File Name="../../Src/Representations/Modeling/RobotPose.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Tools">
+    <VirtualDirectory Name="Streams">
+      <File Name="../../Src/Tools/Streams/Streamable.cpp"/>
+      <File Name="../../Src/Tools/Streams/InOut.cpp"/>
+      <File Name="../../Src/Tools/Streams/OutStreams.cpp"/>
+      <File Name="../../Src/Tools/Streams/InStreams.cpp"/>
+      <File Name="../../Src/Tools/Streams/SimpleMap.cpp"/>
+      <File Name="../../Src/Tools/Streams/TypeRegistry.cpp"/>
+      <File Name="../../Src/Tools/Streams/TypeInfo.cpp"/>
+      <File Name="../../Src/Tools/Streams/AutoStreamable.h"/>
+      <File Name="../../Src/Tools/Streams/Enum.h"/>
+      <File Name="../../Src/Tools/Streams/TypeInfo.h"/>
+      <File Name="../../Src/Tools/Streams/Eigen.h"/>
+      <File Name="../../Src/Tools/Streams/InStreams.h"/>
+      <File Name="../../Src/Tools/Streams/OutStreams.h"/>
+      <File Name="../../Src/Tools/Streams/TypeRegistry.h"/>
+      <File Name="../../Src/Tools/Streams/Streamable.h"/>
+      <File Name="../../Src/Tools/Streams/SimpleMap.h"/>
+      <File Name="../../Src/Tools/Streams/InOut.h"/>
+      <File Name="../../Src/Tools/Streams/EnumIndexedArray.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Debugging">
+      <File Name="../../Src/Tools/Debugging/DebugRequest.cpp"/>
+      <File Name="../../Src/Tools/Debugging/AnnotationManager.cpp"/>
+      <File Name="../../Src/Tools/Debugging/ColorRGBA.cpp"/>
+      <File Name="../../Src/Tools/Debugging/DebugDataTable.cpp"/>
+      <File Name="../../Src/Tools/Debugging/DebugDrawings.cpp"/>
+      <File Name="../../Src/Tools/Debugging/DebugImages.cpp"/>
+      <File Name="../../Src/Tools/Debugging/DebugDataStreamer.cpp"/>
+      <File Name="../../Src/Tools/Debugging/TcpConnection.cpp"/>
+      <File Name="../../Src/Tools/Debugging/QueueFillRequest.cpp"/>
+      <File Name="../../Src/Tools/Debugging/TimingManager.cpp"/>
+      <File Name="../../Src/Tools/Debugging/AnnotationManager.h"/>
+      <File Name="../../Src/Tools/Debugging/Modify.h"/>
+      <File Name="../../Src/Tools/Debugging/Annotation.h"/>
+      <File Name="../../Src/Tools/Debugging/DebugDataTable.h"/>
+      <File Name="../../Src/Tools/Debugging/Debugging.h"/>
+      <File Name="../../Src/Tools/Debugging/DebugRequest.h"/>
+      <File Name="../../Src/Tools/Debugging/TimingManager.h"/>
+      <File Name="../../Src/Tools/Debugging/DebugDrawings3D.h"/>
+      <File Name="../../Src/Tools/Debugging/TcpConnection.h"/>
+      <File Name="../../Src/Tools/Debugging/DebugImages.h"/>
+      <File Name="../../Src/Tools/Debugging/ColorRGBA.h"/>
+      <File Name="../../Src/Tools/Debugging/DebugDrawings.h"/>
+      <File Name="../../Src/Tools/Debugging/QueueFillRequest.h"/>
+      <File Name="../../Src/Tools/Debugging/Stopwatch.h"/>
+      <File Name="../../Src/Tools/Debugging/DebugDataStreamer.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Optimization">
+      <VirtualDirectory Name="External">
+        <File Name="../../Src/Tools/Optimization/External/External.cpp"/>
+        <File Name="../../Src/Tools/Optimization/External/External.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Tools/Optimization/EigenPopulation.cpp"/>
+      <File Name="../../Src/Tools/Optimization/CMA-ES.cpp"/>
+      <File Name="../../Src/Tools/Optimization/ParameterIndividual.h"/>
+      <File Name="../../Src/Tools/Optimization/SimplePopulation.h"/>
+      <File Name="../../Src/Tools/Optimization/MAPElitesPopulation.h"/>
+      <File Name="../../Src/Tools/Optimization/EigenPopulation.h"/>
+      <File Name="../../Src/Tools/Optimization/CMA-ES.h"/>
+      <File Name="../../Src/Tools/Optimization/GeneticPopulation.h"/>
+      <File Name="../../Src/Tools/Optimization/ParameterLearner.h"/>
+      <File Name="../../Src/Tools/Optimization/GaussNewtonOptimizer.h"/>
+      <File Name="../../Src/Tools/Optimization/Population.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ProcessFramework">
+      <File Name="../../Src/Tools/ProcessFramework/Receiver.cpp"/>
+      <File Name="../../Src/Tools/ProcessFramework/ProcessFramework.cpp"/>
+      <File Name="../../Src/Tools/ProcessFramework/Process.cpp"/>
+      <File Name="../../Src/Tools/ProcessFramework/Sender.cpp"/>
+      <File Name="../../Src/Tools/ProcessFramework/SPLMessageHandler.cpp"/>
+      <File Name="../../Src/Tools/ProcessFramework/Process.h"/>
+      <File Name="../../Src/Tools/ProcessFramework/SPLMessageHandler.h"/>
+      <File Name="../../Src/Tools/ProcessFramework/PlatformProcess.h"/>
+      <File Name="../../Src/Tools/ProcessFramework/Receiver.h"/>
+      <File Name="../../Src/Tools/ProcessFramework/Sender.h"/>
+      <File Name="../../Src/Tools/ProcessFramework/ProcessFramework.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Communication">
+      <File Name="../../Src/Tools/Communication/UdpComm.cpp"/>
+      <File Name="../../Src/Tools/Communication/TcpComm.cpp"/>
+      <File Name="../../Src/Tools/Communication/BNTP.cpp"/>
+      <File Name="../../Src/Tools/Communication/SPLStandardMessageBuffer.h"/>
+      <File Name="../../Src/Tools/Communication/BNTP.h"/>
+      <File Name="../../Src/Tools/Communication/TcpComm.h"/>
+      <File Name="../../Src/Tools/Communication/UdpComm.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="RobotParts">
+      <File Name="../../Src/Tools/RobotParts/FootShape.cpp"/>
+      <File Name="../../Src/Tools/RobotParts/FootShape.h"/>
+      <File Name="../../Src/Tools/RobotParts/Limbs.h"/>
+      <File Name="../../Src/Tools/RobotParts/Joints.h"/>
+      <File Name="../../Src/Tools/RobotParts/FsrSensors.h"/>
+      <File Name="../../Src/Tools/RobotParts/Legs.h"/>
+      <File Name="../../Src/Tools/RobotParts/Arms.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="BehaviorControl">
+      <File Name="../../Src/Tools/BehaviorControl/SectorWheel.cpp"/>
+      <File Name="../../Src/Tools/BehaviorControl/SectorWheel.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="MessageQueue">
+      <File Name="../../Src/Tools/MessageQueue/MessageQueueBase.cpp"/>
+      <File Name="../../Src/Tools/MessageQueue/InMessage.cpp"/>
+      <File Name="../../Src/Tools/MessageQueue/MessageQueue.cpp"/>
+      <File Name="../../Src/Tools/MessageQueue/OutMessage.cpp"/>
+      <File Name="../../Src/Tools/MessageQueue/MessageQueue.h"/>
+      <File Name="../../Src/Tools/MessageQueue/OutMessage.h"/>
+      <File Name="../../Src/Tools/MessageQueue/MessageIDs.h"/>
+      <File Name="../../Src/Tools/MessageQueue/InMessage.h"/>
+      <File Name="../../Src/Tools/MessageQueue/MessageQueueBase.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="NeuralNetwork">
+      <VirtualDirectory Name="CompiledNN">
+        <VirtualDirectory Name="Layers">
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Activation.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Quantize.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/SConv2D.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Dense.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/BatchNormalization.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Pooling2D.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Softmax.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Dequantize.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/UInt8Input.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Conv2D.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Conv2D.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Quantize.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/SConv2D.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Dense.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Softmax.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Pooling2D.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Activation.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/UInt8Input.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/BatchNormalization.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Layers/Dequantize.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Util">
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Util/ExpApprox.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Util/Quantization.cpp"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Util/Quantization.h"/>
+          <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/Util/ExpApprox.h"/>
+        </VirtualDirectory>
+        <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/CompilationSettings.cpp"/>
+        <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/ActivationFunctions.cpp"/>
+        <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/CompiledNNImplBase.h"/>
+        <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/CompiledNNImpl.h"/>
+        <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/ActivationFunctions.h"/>
+        <File Name="../../Src/Tools/NeuralNetwork/CompiledNN/CompilationSettings.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Tools/NeuralNetwork/CompiledNN.cpp"/>
+      <File Name="../../Src/Tools/NeuralNetwork/Model.cpp"/>
+      <File Name="../../Src/Tools/NeuralNetwork/NNUtilities.cpp"/>
+      <File Name="../../Src/Tools/NeuralNetwork/SimpleNN.cpp"/>
+      <File Name="../../Src/Tools/NeuralNetwork/Tensor.h"/>
+      <File Name="../../Src/Tools/NeuralNetwork/SimpleNN.h"/>
+      <File Name="../../Src/Tools/NeuralNetwork/CompiledNN.h"/>
+      <File Name="../../Src/Tools/NeuralNetwork/NNUtilities.h"/>
+      <File Name="../../Src/Tools/NeuralNetwork/Model.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Logging">
+      <File Name="../../Src/Tools/Logging/Logger.cpp"/>
+      <File Name="../../Src/Tools/Logging/LogFileFormat.h"/>
+      <File Name="../../Src/Tools/Logging/Logger.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="ImageProcessing">
+      <VirtualDirectory Name="CNS">
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CodedContour.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/SubpixelMaximizer.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CNSTools.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/TriangleMesh.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CameraModelOpenCV.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CylinderRing.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/ObjectCNSStereoDetector.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CNSSSE.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/LutRasterizer.cpp"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CylinderRing.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/LutRasterizer.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/TriangleMesh.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CNSTools.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CNSSSE.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CodedContour.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/SearchSpecification.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/CameraModelOpenCV.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/ResponseMapping.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/SubpixelMaximizer.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/IsometryWithResponse.h"/>
+        <File Name="../../Src/Tools/ImageProcessing/CNS/ObjectCNSStereoDetector.h"/>
+      </VirtualDirectory>
+      <File Name="../../Src/Tools/ImageProcessing/Sobel.cpp"/>
+      <File Name="../../Src/Tools/ImageProcessing/SIMD.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/YHSColorConversion.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/Sobel.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/ImageTransform.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/AVX.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/InImageSizeCalculations.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/TImage.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/YHS2SimpleConversion.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/ColorModelConversions.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/PixelTypes.h"/>
+      <File Name="../../Src/Tools/ImageProcessing/InImageSizeCalculations.cpp" ExcludeProjConfig="Develop;Debug"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Precompiled">
+      <File Name="../../Src/Tools/Precompiled/BHumanPch.cpp"/>
+      <File Name="../../Src/Tools/Precompiled/BHumanPch.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Modeling">
+      <File Name="../../Src/Tools/Modeling/Obstacle.cpp"/>
+      <File Name="../../Src/Tools/Modeling/PerceptRegistration.cpp"/>
+      <File Name="../../Src/Tools/Modeling/UKFPose2D.h"/>
+      <File Name="../../Src/Tools/Modeling/SampleSet.h"/>
+      <File Name="../../Src/Tools/Modeling/BallLocatorTools.h"/>
+      <File Name="../../Src/Tools/Modeling/BallPhysics.h"/>
+      <File Name="../../Src/Tools/Modeling/Measurements.h"/>
+      <File Name="../../Src/Tools/Modeling/PerceptRegistration.h"/>
+      <File Name="../../Src/Tools/Modeling/Obstacle.h"/>
+      <File Name="../../Src/Tools/Modeling/UKFPose2D.cpp" ExcludeProjConfig="Develop;Debug"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Module">
+      <File Name="../../Src/Tools/Module/ModuleManager.cpp"/>
+      <File Name="../../Src/Tools/Module/Blackboard.cpp"/>
+      <File Name="../../Src/Tools/Module/Module.cpp"/>
+      <File Name="../../Src/Tools/Module/ModulePackage.h"/>
+      <File Name="../../Src/Tools/Module/Module.h"/>
+      <File Name="../../Src/Tools/Module/Blackboard.h"/>
+      <File Name="../../Src/Tools/Module/ModuleManager.h"/>
+      <File Name="../../Src/Tools/Module/Next.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Math">
+      <File Name="../../Src/Tools/Math/Approx.h"/>
+      <File Name="../../Src/Tools/Math/FixedPoint.h"/>
+      <File Name="../../Src/Tools/Math/RotationMatrix.h"/>
+      <File Name="../../Src/Tools/Math/Probabilistics.h"/>
+      <File Name="../../Src/Tools/Math/NeumaierSum.h"/>
+      <File Name="../../Src/Tools/Math/Geometry.h"/>
+      <File Name="../../Src/Tools/Math/GMM.h"/>
+      <File Name="../../Src/Tools/Math/CubicSpline.h"/>
+      <File Name="../../Src/Tools/Math/Eigen.h"/>
+      <File Name="../../Src/Tools/Math/EigenArrayExtensions.h"/>
+      <File Name="../../Src/Tools/Math/Pose2f.h"/>
+      <File Name="../../Src/Tools/Math/Gaussian.h"/>
+      <File Name="../../Src/Tools/Math/Random.h"/>
+      <File Name="../../Src/Tools/Math/Transformation.h"/>
+      <File Name="../../Src/Tools/Math/Differentiator.h"/>
+      <File Name="../../Src/Tools/Math/Projection.h"/>
+      <File Name="../../Src/Tools/Math/Angle.h"/>
+      <File Name="../../Src/Tools/Math/Deviation.h"/>
+      <File Name="../../Src/Tools/Math/Pose3f.h"/>
+      <File Name="../../Src/Tools/Math/BHMath.h"/>
+      <File Name="../../Src/Tools/Math/LeastSquares.h"/>
+      <File Name="../../Src/Tools/Math/Constants.h"/>
+      <File Name="../../Src/Tools/Math/UnscentedKalmanFilter.h"/>
+      <File Name="../../Src/Tools/Math/Covariance.h"/>
+      <File Name="../../Src/Tools/Math/EigenMatrixBaseExtensions.h"/>
+      <File Name="../../Src/Tools/Math/Rotation.h"/>
+      <File Name="../../Src/Tools/Math/Projection.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/Transformation.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/Geometry.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/Random.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/Differentiator.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/RotationMatrix.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/LeastSquares.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Math/CubicSpline.cpp" ExcludeProjConfig="Develop;Debug"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Motion">
+      <File Name="../../Src/Tools/Motion/MotionUtilities.h"/>
+      <File Name="../../Src/Tools/Motion/InverseKinematic.h"/>
+      <File Name="../../Src/Tools/Motion/WalkKickEngine.h"/>
+      <File Name="../../Src/Tools/Motion/ForwardKinematic.h"/>
+      <File Name="../../Src/Tools/Motion/MofCompiler.h"/>
+      <File Name="../../Src/Tools/Motion/LIP3D.h"/>
+      <File Name="../../Src/Tools/Motion/LIP.h"/>
+      <File Name="../../Src/Tools/Motion/SensorData.h"/>
+      <File Name="../../Src/Tools/Motion/OptimalControl.h"/>
+      <File Name="../../Src/Tools/Motion/LIP.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Motion/InverseKinematic.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Motion/MotionUtilities.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Motion/MofCompiler.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Motion/ForwardKinematic.cpp" ExcludeProjConfig="Develop;Debug"/>
+      <File Name="../../Src/Tools/Motion/WalkKickEngine.cpp" ExcludeProjConfig="Develop;Debug"/>
+    </VirtualDirectory>
+    <File Name="../../Src/Tools/FunctionList.cpp"/>
+    <File Name="../../Src/Tools/AlignedMemory.cpp"/>
+    <File Name="../../Src/Tools/Settings.cpp"/>
+    <File Name="../../Src/Tools/Global.cpp"/>
+    <File Name="../../Src/Tools/RingBuffer.h"/>
+    <File Name="../../Src/Tools/RingBufferWithSum.h"/>
+    <File Name="../../Src/Tools/Cabsl.h"/>
+    <File Name="../../Src/Tools/Range.h"/>
+    <File Name="../../Src/Tools/Boundary.h"/>
+    <File Name="../../Src/Tools/Function.h"/>
+    <File Name="../../Src/Tools/AlignedMemory.h"/>
+    <File Name="../../Src/Tools/Global.h"/>
+    <File Name="../../Src/Tools/Settings.h"/>
+    <File Name="../../Src/Tools/FunctionList.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Util">
+    <VirtualDirectory Name="asmjit">
+      <VirtualDirectory Name="src">
+        <VirtualDirectory Name="asmjit">
+          <VirtualDirectory Name="base">
+            <File Name="../../Util/asmjit/src/asmjit/base/runtime.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/arch.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/osutils.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/cpuinfo.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/utils.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/zone.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codeemitter.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/regalloc.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/inst.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/string.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/func.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codebuilder.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codeholder.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/assembler.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/globals.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/logging.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/constpool.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/operand.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/vmem.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/base/codecompiler.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="x86">
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86inst.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86instimpl.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86regalloc.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86logging.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86assembler.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86operand_regs.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86builder.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86internal.cpp"/>
+            <File Name="../../Util/asmjit/src/asmjit/x86/x86compiler.cpp"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Develop" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="no" PreCompiledHeader=""/>
+      <Linker Options="" Required="no"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../Build/Linux/SimulatedNao/Develop/libSimulatedNao.so" IntermediateDirectory="../../Build/Linux/SimulatedNao/Develop" Command="./../../Build/Linux/SimulatedNao/Develop/libSimulatedNao.so" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true rebuild SimulatedNao config=Develop</RebuildCommand>
+        <CleanCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true clean SimulatedNao config=Develop</CleanCommand>
+        <BuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true SimulatedNao config=Develop</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="no" PreCompiledHeader=""/>
+      <Linker Options="" Required="no"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../Build/Linux/SimulatedNao/Debug/libSimulatedNao.so" IntermediateDirectory="../../Build/Linux/SimulatedNao/Debug" Command="./../../Build/Linux/SimulatedNao/Debug/libSimulatedNao.so" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true rebuild SimulatedNao config=Debug</RebuildCommand>
+        <CleanCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true clean SimulatedNao config=Debug</CleanCommand>
+        <BuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true SimulatedNao config=Debug</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="no" PreCompiledHeader=""/>
+      <Linker Options="" Required="no"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="../../Build/Linux/SimulatedNao/Release/libSimulatedNao.so" IntermediateDirectory="../../Build/Linux/SimulatedNao/Release" Command="./../../Build/Linux/SimulatedNao/Release/libSimulatedNao.so" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="." PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true rebuild SimulatedNao config=Release</RebuildCommand>
+        <CleanCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true clean SimulatedNao config=Release</CleanCommand>
+        <BuildCommand>../../Util/SimRobot/Util/mare/Linux/bin/mare qtinclude="/usr/include/x86_64-linux-gnu/qt5" ssse3=true avx2=true SimulatedNao config=Release</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Develop"/>
+  <Dependencies Name="Release"/>
+</CodeLite_Project>
